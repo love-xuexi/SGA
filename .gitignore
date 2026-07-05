@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model checkpoints and outputs
+outputs/
+inference_results/
+reward_models_train/
+*.pt
+*.bin
+*.safetensors
+
+# Data
+*.csv
+*.jsonl
+
+# Misc
+wandb/
+paper_text.txt
+SGA_final.pdf
